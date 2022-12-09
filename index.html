@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="">
+  <title>TWO</title>
+</head>
+
+<body>
+
+
+
+
+
+
+  <!-- The overlay -->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <!---->
+
+    <!-- Overlay content -->
+    <div class="overlay-content">
+
+      <a href="about.html">About</a>
+      <a href="service.html">Service</a>
+      <a href="menu.html">Menu</a>
+      <a href="contacts.html">Contact</a>
+    </div>
+
+  </div>
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <!--
+<span onclick="openNav()">&#9776;open</span>
+-->
+
+
+<!-- Text on image contiune-->
+<div class="class="home-1">
+  <img src="./images/background2.jpg" alt="Snow" style="width:100%;">
+  <div class="bottom-left"></div>
+  <div class="top-left"></div>
+  <div class="top-right"></div>
+  <div class="bottom-right"></div>
+  <div class="centered"><div class="onClick">
+    <button><span class="highlight" onClick="openNav()">Click the Grill</a>&#9776;</a></span></button>
+    <h1>James Roberts Grill!!</h1>
+</div>
+
+ 
+   
+
+
+  <!-- image content 
+  <div class="home-1">
+    <img src="./images/background2.jpg" width="99%" height="99%" alt="">
+  </div>
+
+  <-- Footer Area below  with Onclick-->
+  <!--<div class="onClick">
+     <button><span onClick="openNav()"></a>&#9776;Click the GRILL!</span></button>
+    </div>
+  -->
+
+  <!--Script with OverLay need both to oparate-->
+  <script>
+    /* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+
+
+
+
+
+</body>
+
+</html>

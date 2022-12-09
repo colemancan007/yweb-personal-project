@@ -1,0 +1,313 @@
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*-- Home Page --*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightsteelblue;
+}
+.highlight:hover {
+    color: white;
+    font-size: 22px;
+}
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 0;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top: 0;
+    left: 0;
+    background-color: rgb(167, 17, 17); /* Black fallback color */
+    background-color: rgba(199, 26, 26, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+/* Container holding the image and the text */
+.home-1 {
+ 
+  position: relative;
+  text-align: center;
+  color: rgb(145, 126, 126);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  font-style: italic;
+  color: #f1f1f1;
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  /* image-1 in Home;*/
+/*
+  .home-1{
+background-color: black;
+  }
+
+  .onClick{
+    padding: 5px;
+    background-color: rgb(63, 14, 14);
+    text-align: center;
+    
+    
+  }*/
+  /*--Button --*/
+  button{
+    color: #f1f1f1;
+    background-color: rgb(63, 14, 14);
+    
+    height: 40px;
+    width: 20%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+/*--About Body below --*/
+  .about-pg{
+    background-color: rgb(171, 6, 6);
+   
+   }
+   /*-- About pg image and h1- p below--*/
+   .about-container{
+   display: flex;
+   word-wrap: normal;
+  }
+  .about-container img{
+    width: 35%;
+  margin-bottom: 10px;
+  }
+
+
+  .james {
+    color: white ;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+   }
+
+   /*--Service Body below --*/
+
+   .service-pg{
+    color: brown;
+    background-image: url("/two/images/background homepg.jpg");
+    font-style:oblique;
+    
+   }
+   
+  .featured-dishes{
+    text-align: center;
+    color: rgb(239, 245, 245);
+    padding-left: 25em;
+    font-size: larger;
+  }
+
+  .meats{
+    text-align: center;
+    color: rgb(239, 245, 245);
+    padding-left: 25em;
+    font-size: larger;
+  }
+
+
+  .vegetables{
+    text-align: center;
+    color: rgb(239, 245, 245);
+    padding-left: 25em;
+    font-size: larger;
+  }
+
+  .fish{
+    text-align: center;
+    color: rgb(239, 245, 245);
+    padding-left: 25em;
+    font-size: larger;
+  }
+
+
+
+
+
+
+   /*--Menu Body below --*/
+   .hp-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 50px;
+      font-size: 20px;
+    }
+   
+   .menu-pg{
+    color: whitesmoke;
+    background-color: rgb(198, 10, 10);
+  
+    padding: 5px;
+    margin: 5px;
+   }
+
+.hp-sticky{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+   /*--contiune fixing the tables--*/
+   table,  td {
+    border: 2px solid black;
+    padding: 10px;
+    
+   }
+   /* change color of text below */
+.connects{
+
+}
+   .tables{
+  gap: 10px;
+  display: grid;
+  grid-template-columns: 50em 50em;
+   }
+
+.table-1{
+  padding: 5px;
+  margin: 5px;
+width: 45%;
+
+}
+.table-2{
+padding: 5px;
+margin: 5px;
+width: 45%;
+
+}
+.table-3{
+padding: 5px;
+margin: 5px;
+width: 45%;
+}
+.table-4{
+padding: 5px;
+margin: 5px;
+width: 45%;
+}
+
+/*-- Contacts body below --*/
+.contacts{
+  background-image: url("./images/meats\ we\ sell.jpg");
+ 
+ letter-spacing: 1px;
+text-align: center;
+}
+
+
+.contact-content{
+  background-color:rgb(174, 55, 55);
+  margin: 200px;
+  box-shadow: rgba(0,0,0, 0.1);
+  display: grid;
+  color: rgb(166, 116, 49);
+}
+
+ul{
+  line-height: 1.5em;
+  list-style: none;
+}
+
+.reserve{
+  line-height: 2em;
+}
+.contacts-h1-p{
+  color: rgb(174, 55, 55);
+}
+
+.aTable{
+font-size: xx-large;
+color: rgb(174, 55, 55);
+}
+
+.btn{
+  color: rgb(50, 17, 17);
+  background-color:  brown;
+}
+.form-field{
+  
+}
+
+/* service below*/
+.service-pg{
+  background-image: url("candace-portfolio/personal project/images/background homepg.jpg" width=" 100%" height="100%");
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
