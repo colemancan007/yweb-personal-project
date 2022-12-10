@@ -15,8 +15,7 @@
 /*-- Home Page --*/
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightsteelblue;
-}
+    background-color: black;
 .highlight:hover {
     color: white;
     font-size: 22px;
