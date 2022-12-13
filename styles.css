@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(3, 19, 24);
+    font-family: 'Times New Roman', Times, serif;
   }
 }
 
@@ -14,10 +15,11 @@
 
 /*-- Home Page --*/
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
+  
+    background-color: rgb(32, 41, 53);
+}
 .highlight:hover {
-    color: white;
+    color: rgb(238, 112, 112);
     font-size: 22px;
 }
 
@@ -127,10 +129,10 @@ background-color: black;
     
     
   }*/
-  /*--Button --*/
+  /*--Home body Button below--*/
   button{
     color: #f1f1f1;
-    background-color: rgb(63, 14, 14);
+    background-color: rgb(52, 23, 23);
     
     height: 40px;
     width: 20%;
@@ -138,67 +140,103 @@ background-color: black;
   }
 /*--About Body below --*/
   .about-pg{
-    background-color: rgb(171, 6, 6);
+    background-color: rgb(198, 8, 8);
    
    }
    /*-- About pg image and h1- p below--*/
    .about-container{
    display: flex;
    word-wrap: normal;
+flex-wrap: wrap;
   }
   .about-container img{
     width: 35%;
   margin-bottom: 10px;
+  align-items: center;
   }
 
+
+#james-robert{
+  line-height: 1.5em;
+  color: white ;
+  text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+   .Sincerely{
+   text-align: center;
+   color: white ;
+   
+   padding: 10px;
+    margin: 10px;
+   }
+  /*to move text over use the indent*/
+ 
 
   .james {
     color: white ;
   display: flex;
-  text-align: center;
+  gap: 5px;
   padding: 10px;
   margin: 10px;
+  text-indent: 100px;
+  
    }
 
+   .james-robert{
+    font-size: .5em;
+    color: white ;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    margin: 10px;
+   
+   }
+   .amc-href-about{
+    text-align: center;
+   }
    /*--Service Body below --*/
-
-   .service-pg{
-    color: brown;
-    background-image: url("/two/images/background homepg.jpg");
-    font-style:oblique;
+.main-service{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+   
+   
     
-   }
    
   .featured-dishes{
     text-align: center;
-    color: rgb(239, 245, 245);
-    padding-left: 25em;
+    color: rgb(249, 243, 243);
+    padding-left: 20em;
     font-size: larger;
   }
 
   .meats{
     text-align: center;
     color: rgb(239, 245, 245);
-    padding-left: 25em;
+    padding-left: 20em;
     font-size: larger;
   }
-
 
   .vegetables{
     text-align: center;
     color: rgb(239, 245, 245);
-    padding-left: 25em;
+    padding-left: 20em;
     font-size: larger;
   }
 
   .fish{
     text-align: center;
     color: rgb(239, 245, 245);
-    padding-left: 25em;
+    padding-left: 20em;
     font-size: larger;
   }
 
-
+ .amc-href{
+  
+ 
+ 
+ }
 
 
 
@@ -214,10 +252,11 @@ background-color: black;
    
    .menu-pg{
     color: whitesmoke;
-    background-color: rgb(198, 10, 10);
-  
+    background-color:rgb(139, 23, 3) ;
+  font-style: normal;
     padding: 5px;
     margin: 5px;
+   
    }
 
 .hp-sticky{
@@ -225,16 +264,14 @@ background-color: black;
   padding: 10px;
   margin: 10px;
 }
-   /*--contiune fixing the tables--*/
+   /*----*/
    table,  td {
     border: 2px solid black;
     padding: 10px;
     
    }
    /* change color of text below */
-.connects{
 
-}
    .tables{
   gap: 10px;
   display: grid;
@@ -302,11 +339,6 @@ color: rgb(174, 55, 55);
   color: rgb(50, 17, 17);
   background-color:  brown;
 }
-.form-field{
-  
-}
+
 
 /* service below*/
-.service-pg{
-  background-image: url("candace-portfolio/personal project/images/background homepg.jpg" width=" 100%" height="100%");
- font-family: Verdana, Geneva, Tahoma, sans-serif;
