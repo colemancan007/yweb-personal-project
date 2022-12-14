@@ -130,17 +130,16 @@ background-color: black;
     
   }*/
   /*--Home body Button below--*/
-  button{
-    color: #f1f1f1;
-    background-color: rgb(52, 23, 23);
+  .grill{
     
-    height: 40px;
-    width: 20%;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
   }
+
+  
 /*--About Body below --*/
   .about-pg{
-    background-color: rgb(198, 8, 8);
+    background-color: rgb(95, 21, 21);
    
    }
    /*-- About pg image and h1- p below--*/
@@ -190,8 +189,13 @@ flex-wrap: wrap;
     gap: 5px;
     padding: 10px;
     margin: 10px;
-   
+  
    }
+
+   p{
+   font: Sans-serif;
+   }
+
    .amc-href-about{
     text-align: center;
    }
@@ -232,11 +236,6 @@ flex-wrap: wrap;
     font-size: larger;
   }
 
- .amc-href{
-  
- 
- 
- }
 
 
 
